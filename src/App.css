@@ -380,7 +380,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
-  color: rgb(12, 12, 12);
+  color: #ffffff;
   width: 100%;
   font-size: 17px;
   letter-spacing: 0.8px;
@@ -396,6 +396,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0;
     height: 100%;
     background: linear-gradient(90.21deg, #f7fa33 -5.91%, #f7f4de 111.58%);
+    color: #121212;
     top: 0;
     left: 0;
     z-index: -1;
@@ -403,8 +404,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
+    
 }
 .project .nav.nav-pills .nav-link.active {
+    color: rgb(12,12,12);
     border: 1px solid rgba(255, 255, 255, 1);
 }
 .nav-link#projects-tabs-tab-first {
@@ -417,7 +420,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
 }
 .proj-imgbx {
   position: relative;
@@ -439,7 +441,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
 }
 .proj-txtx {
-  color:#FFFFFF;
+  color: rgb(12, 12, 12);
   position: absolute;
   text-align: center;
   top: 65%;
@@ -450,18 +452,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 .proj-imgbx:hover .proj-txtx {
-  color: rgb(20, 20, 20);
-  
   top: 50%;
   opacity: 1;
 }
 .proj-txtx h4 {
+  
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
+
 .proj-txtx span {
+  color: rgb(12, 12, 12);
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
@@ -556,19 +559,7 @@ background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, F
   background: #121212;  /* fallback for old browsers */
 
 }
-.newsletter-bx {
-  background: #FFFFFF;
-  border-radius: 55px;
-  color: #121212;
-  padding: 85px 125px;
-  margin-bottom: 80px;
-  margin-top: -122px;
-}
-.newsletter-bx h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2em;
-}
+
 .new-email-bx {
   background: #fff;
   padding: 5px;
