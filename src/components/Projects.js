@@ -1,10 +1,9 @@
 import { Row, Col, Tab, Nav } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import projImg1 from "../assets/img/project-img4.png";
+import projImg2 from "../assets/img/project-img4.png";
+import projImg4 from "../assets/img/project-img4.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -15,16 +14,19 @@ export const Projects = () => {
       title: "Control de gastos",
       description: "En desarrollo...",
       imgUrl: projImg1,
+      href: "#",
     },
     {
       title: "Tienda en linea",
       description: "En desarrollo...",
       imgUrl: projImg2,
+      href: "#",
     },
     {
       title: "App del clima",
-      description: "En desarrollo...",
-      imgUrl: projImg3,
+      description: "Clima por ciudad con imagen de fondo segun el clima",
+      imgUrl: projImg4,
+      href: "https://beautiful-faun-524592.netlify.app/"
     }/*,
     {
       title: "Business Startup",
@@ -44,7 +46,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -93,7 +95,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
 }

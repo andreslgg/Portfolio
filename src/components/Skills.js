@@ -1,15 +1,10 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+
 import meter4 from "../assets/img/meter4.svg";
 import meter5 from "../assets/img/meter5.svg";
 import meter6 from "../assets/img/meter6.svg";
 //import meter4 from "../assets/img/meter4.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
   const responsive = {
@@ -42,19 +37,19 @@ export const Skills = () => {
                         <p>Estos skills no son basados en el conocimiento general de los lenguajes, sino, en relacion de lo que conozco en comparacion de otros.<br></br> </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter4} alt="Image" />
+                                <img src={meter4}  alt=""/>
                                 <h5>Java</h5>
                             </div>
                             <div className="item">
-                                <img src={meter5} alt="Image" />
+                                <img src={meter5} alt="" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter5} alt="Image" />
+                                <img src={meter5} alt="" />
                                 <h5>Javascript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter6} alt="Image" />
+                                <img src={meter6} alt="" />
                                 <h5>Php</h5>
                             </div>
                         </Carousel>
@@ -62,7 +57,6 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   )
 }

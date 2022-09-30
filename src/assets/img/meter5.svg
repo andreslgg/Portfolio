@@ -6,7 +6,7 @@
      width="2.26667in" height="2.26667in"
      viewBox="0 0 204 204">
   <path id="Selección"
-        fill="url(#paint0_linear_16_349)" stroke="black" stroke-width="1"
+        fill="url(#paint)" stroke="black" stroke-width="1"
         d="M 103.50,16.00
            C 103.50,16.00 103.50,1.25 103.50,1.25
              120.33,-5.33 165.46,16.17 182.54,37.00
@@ -62,10 +62,5 @@
            M 138.00,104.00
            C 142.66,102.36 142.66,99.64 138.00,98.00
              138.00,98.00 138.00,104.00 138.00,104.00 Z" />
-              <defs>
-<linearGradient id="paint0_linear_16_349" x1="-12.4348" y1="91.2145" x2="228.124" y2="92.098" gradientUnits="userSpaceOnUse">
-<stop stop-color="#AA367C"/>
-<stop offset="1" stop-color="#4A2FBD"/>
-</linearGradient>
-</defs>
+        <defs><linearGradient id="paint" gradientUnits="userSpaceOnUse"><stop stop-color="#997600"/><stop offset="1" stop-color="#fffae8"/><stop offset="2" stop-color="#fef3cb"/><stop offset="3" stop-color="#feecad"/><stop offset="4" stop-color="#333400"/><stop offset="5" stop-color="#ffc80e"/></linearGradient></defs>
 </svg>
