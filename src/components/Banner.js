@@ -45,7 +45,7 @@ export const Banner = () => {
       setDelta(500);
     } else {
       setIndex(prevIndex => prevIndex + 1);
-      console.log(index)
+      
     }
   }
 
