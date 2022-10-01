@@ -4,6 +4,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img4.png";
 import projImg2 from "../assets/img/project-img4.png";
 import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -12,21 +15,21 @@ export const Projects = () => {
   const projects = [
     {
       title: "Control de gastos",
-      description: "En desarrollo...",
-      imgUrl: projImg1,
-      href: "#",
+      description: "Planificadora de gastos",
+      imgUrl: projImg6,
+      href: "https://planificadora-andreslgg.netlify.app/",
     },
     {
       title: "Tienda en linea",
-      description: "En desarrollo...",
-      imgUrl: projImg2,
-      href: "#",
+      description: "E-Commerce",
+      imgUrl: projImg5,
+      href: "https://e-commerce-andreslgg.netlify.app/",
     },
     {
       title: "App del clima",
       description: "Clima por ciudad con imagen de fondo segun el clima",
       imgUrl: projImg4,
-      href: "https://beautiful-faun-524592.netlify.app/"
+      href: "https://clima-app-andreslgg.netlify.app/"
     }/*,
     {
       title: "Business Startup",
